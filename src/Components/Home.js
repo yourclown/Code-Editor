@@ -18,31 +18,7 @@ function Home() {
     position: "relative",
   };
 
-  const shape1 = {
-    left: 0,
-    right: 0,
-    margin: "auto",
-    top: "90px",
-    position: "absolute",
-  };
-
-  const shape2 = {
-    right: "380px",
-    top: "280px",
-    position: "absolute",
-  };
-
-  const shape3 = {
-    right: "88px",
-    top: "230px",
-    position: "absolute",
-  };
-
-  const shape6 = {
-    right: "272px",
-    bottom: "0px",
-    position: "absolute",
-  };
+ 
 
   const btnStyle = {
     backgroundColor: "#5c4389",
