@@ -6,6 +6,7 @@ import homeImg from "../Assets/hero-img.png";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./Footer";
 
 function Home() {
   const wrapper = {
@@ -86,25 +87,11 @@ function Home() {
               Web Editor
             </Button>
 
-            <h2 style={{ color: "#f0c19e", paddingTop: "70px" }}>
-              Generate README in Seconds
-            </h2>
-            <h5
-              style={{
-                textAlign: "justify",
-                color: "rgb(154 179 205)",
-                paddingTop: "10px",
-              }}
-            >
-              Online markdown editor, with custom toolbar to help you make your
-              readme easily.
-            </h5>
-            <Button variant="primary" style={btnStyle} as={Link} to="/markdown">
-              Markdown Editor
-            </Button>
+         
           </Col>
         </Row>
       </Container>
+      <Footer/>
     </div>
   );
 }
