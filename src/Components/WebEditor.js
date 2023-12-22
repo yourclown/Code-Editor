@@ -42,13 +42,12 @@ function LaunguageManager() {
         </body>
       </html>`;
 
-  useEffect(() => {
-    setTimeout(() => { }, 500);
-    updateHtmlStrorage(html);
-    updateCssStrorage(css);
-    updateJsStrorage(js);
-  }, [updateCssStrorage, updateHtmlStrorage, updateJsStrorage]);
-
+      useEffect(() => {
+        updateHtmlStrorage(html);
+        updateCssStrorage(css);
+        updateJsStrorage(js);
+      }, [html, css, js, updateHtmlStrorage, updateCssStrorage, updateJsStrorage]);
+      
   return (
     <div>
       <Container fluid={true} className="pane pane-top">
