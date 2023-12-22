@@ -43,11 +43,11 @@ function LaunguageManager() {
       </html>`;
 
   useEffect(() => {
-    setTimeout(() => {}, 500);
+    setTimeout(() => { }, 500);
     updateHtmlStrorage(html);
     updateCssStrorage(css);
     updateJsStrorage(js);
-  }, [html, css, js]);
+  }, [updateCssStrorage, updateHtmlStrorage, updateJsStrorage]);
 
   return (
     <div>
@@ -96,11 +96,7 @@ function LaunguageManager() {
 
       <Container fluid={true} className="pane pane-bottom">
         <Row noGutters={true}>
-          <iframe
-            srcDoc={srcDoc}
-            className="output-pane"
-            allowFullScreen
-          ></iframe>
+          <iframe title="unique-title" srcDoc={srcDoc} className="output-pane" allowFullScreen></iframe>
         </Row>
       </Container>
 
