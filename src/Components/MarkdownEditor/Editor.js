@@ -91,12 +91,7 @@ function Editor() {
                 fileDownload(userInput, "README.md");
               }}
             />
-            <TextareaAutosize
-              id="textarea_input"
-              onChange={handelChange}
-              value={userInput}
-              style={mdIn}
-            />
+           
           </Col>
           <Col md={6} style={{ paddingTop: "35px" }}>
             <h3 className="text-center"> Html Preview</h3>
