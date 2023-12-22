@@ -1,10 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import sh1 from "../Assets/shape-1.svg";
-import sh2 from "../Assets/shape-2.svg";
-import sh3 from "../Assets/shape-3.svg";
-import sh6 from "../Assets/shape-6.svg";
+
 import homeImg from "../Assets/hero-img.png";
 import { Link } from "react-router-dom";
 import "../App.css";
@@ -56,10 +53,7 @@ function Home() {
       style={{ backgroundColor: "#2a283e", minHeight: "100vh", height: "auto" }}
     >
       <Container style={wrapper}>
-        <img src={sh1} alt="fig1" style={shape1} className="shape" />
-        <img src={sh2} alt="fig2" style={shape2} className="shape" />
-        <img src={sh3} alt="fig3" style={shape3} className="shape" />
-        <img src={sh6} alt="fig6" style={shape6} className="shape" />
+
         <Row
           className="text-center"
           style={{
